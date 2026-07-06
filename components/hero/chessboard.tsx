@@ -78,7 +78,7 @@ export default function ChessBoard() {
         {/* ================= GLASS BOARD TOP SURFACE ================= */}
         <div 
           style={{ transform: "translateZ(0px)" }}
-          className="absolute inset-0 overflow-hidden rounded-2xl border border-cyan-300/30 bg-white/[0.02] backdrop-blur-xl shadow-[0_0_80px_rgba(59,130,246,.25)]"
+          className="absolute inset-0 overflow-hidden  border border-cyan-300/30 bg-white/[0.02] backdrop-blur-xl shadow-[0_0_80px_rgba(59,130,246,.25)]"
         >
           {/* Grid Layer */}
           <div className="grid h-full w-full grid-cols-8">

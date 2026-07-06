@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import pawn from "@/public/queen.jpg";
+import pawn from "@/public/black-king.png";
 
 export default function FloatingPawn() {
   return (
@@ -21,10 +21,10 @@ export default function FloatingPawn() {
       <Image
         src={pawn}
         alt="White Pawn"
-        width={120}
-        height={120}
+        width={260}
+        height={260}
         priority
-        className="relative translate-y-48 drop-shadow-[0_0_60px_rgba(59,130,246,.8)]"
+        className="relative translate-y-12 rotate-x-10 rotate-z-10 drop-shadow-[0_0_60px_rgba(59,130,246,.8)]"
       />
     </div>
   );
